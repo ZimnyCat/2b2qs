@@ -65,7 +65,7 @@ while True:
         online = 0
     print(online)
 
-    while online < 300:
+    while online < 200:
         upd = True
         try:
             online = MinecraftServer.lookup("2b2t.org").status().players.online
